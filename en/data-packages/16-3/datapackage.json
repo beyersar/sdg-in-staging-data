@@ -1,0 +1,50 @@
+{
+  "resources": [
+    {
+      "path": "data.csv",
+      "name": "data",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "integer",
+            "title": "Year"
+          },
+          {
+            "name": "data.incident",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Total",
+                "Campaign",
+                "Ableism",
+                "Social-chauvinism",
+                "LGBTIQ* hostility",
+                "Anti-Semitism",
+                "Right-wing and extreme right-wing self-portrayal",
+                "Political opponents",
+                "NS trivialization and glorification",
+                "Racism",
+                ""
+              ]
+            },
+            "title": "Type of incident"
+          },
+          {
+            "name": "Value",
+            "type": "integer",
+            "title": "Value"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": "data-package",
+  "name": "16-3",
+  "title": "16-3"
+}
