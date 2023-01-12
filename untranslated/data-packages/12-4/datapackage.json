@@ -15,18 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.keineB",
-                "data.inB",
-                "data.zert",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }

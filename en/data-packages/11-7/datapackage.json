@@ -16,21 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.gruen",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Green and recreational facilities (incl. playgrounds)",
-                "Allotment gardens",
-                "Cemeteries",
-                "Street green",
-                "Total public green spaces",
-                ""
-              ]
-            },
-            "title": "Public green spaces"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

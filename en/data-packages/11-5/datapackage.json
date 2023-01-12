@@ -16,22 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "data.area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Settlement area",
-                "Residential area",
-                "Industrial and commercial area",
-                "Sports, leisure and recreation area",
-                ""
-              ]
-            },
-            "title": "Area"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

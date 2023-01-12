@@ -16,19 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "No application",
-                "In application",
-                "Fairtrade-School certified",
-                ""
-              ]
-            },
-            "title": "Status"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

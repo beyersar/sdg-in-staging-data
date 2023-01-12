@@ -15,19 +15,6 @@
             "type": "integer"
           },
           {
-            "name": "data.noise",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.no",
-                "data.low",
-                "data.medium",
-                "data.high",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
             "type": "integer"
           }

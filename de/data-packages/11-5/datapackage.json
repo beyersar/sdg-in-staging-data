@@ -16,22 +16,8 @@
             "title": "Jahr"
           },
           {
-            "name": "data.area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Siedlungsfläche",
-                "Wohnbaufläche",
-                "Industrie- und Gewerbefläche",
-                "Sport-, Freizeit- und Erholungsfläche",
-                ""
-              ]
-            },
-            "title": "Fläche"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

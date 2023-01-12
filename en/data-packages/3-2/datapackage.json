@@ -16,20 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.noise",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "No values",
-                "Low",
-                "Medium",
-                "High",
-                ""
-              ]
-            },
-            "title": "Relative noise pollution"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

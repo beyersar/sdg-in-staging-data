@@ -19,15 +19,16 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "A",
-                "B",
+                "Watt",
+                "EW",
+                "W/EW",
                 ""
               ]
             }
           },
           {
             "name": "Value",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }

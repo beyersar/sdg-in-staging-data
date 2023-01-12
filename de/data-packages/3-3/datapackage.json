@@ -16,21 +16,8 @@
             "title": "Jahr"
           },
           {
-            "name": "data.air",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Gering",
-                "Mittel",
-                "Hoch",
-                ""
-              ]
-            },
-            "title": "Relative Luftbelastung"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

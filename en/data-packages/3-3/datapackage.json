@@ -16,21 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "data.air",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Low",
-                "Medium",
-                "High",
-                ""
-              ]
-            },
-            "title": "Relative air pollution"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

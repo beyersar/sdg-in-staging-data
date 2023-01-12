@@ -16,19 +16,6 @@
             "title": "Jahr"
           },
           {
-            "name": "Status",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Keine Bewerbung",
-                "In Bewerbung",
-                "Fairtrade-School zertifiziert",
-                ""
-              ]
-            },
-            "title": "Status"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

@@ -16,19 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.standort",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Public space",
-                "Publicly accessible - on private land",
-                "Total",
-                ""
-              ]
-            },
-            "title": "Location"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"

@@ -16,20 +16,8 @@
             "title": "Jahr"
           },
           {
-            "name": "data.zug",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Innenbereich",
-                "Außenbereich",
-                ""
-              ]
-            },
-            "title": "Zugangspunkte"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

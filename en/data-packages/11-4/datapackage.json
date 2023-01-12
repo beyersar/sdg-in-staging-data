@@ -16,33 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.maintransport",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Walking",
-                "Bicycle",
-                "Motorized private transport",
-                "Public transport",
-                ""
-              ]
-            },
-            "title": "Main means of transport"
-          },
-          {
-            "name": "data.spatialtypes",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Domestic traffic",
-                "Source and destination traffic",
-                "All routes",
-                ""
-              ]
-            },
-            "title": "Traffic flow types"
-          },
-          {
             "name": "Value",
             "type": "number",
             "title": "Value"

@@ -16,20 +16,8 @@
             "title": "Year"
           },
           {
-            "name": "data.zug",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Indoor",
-                "Outdoor",
-                ""
-              ]
-            },
-            "title": "Access Points"
-          },
-          {
             "name": "Value",
-            "type": "integer",
+            "type": "number",
             "title": "Value"
           }
         ]

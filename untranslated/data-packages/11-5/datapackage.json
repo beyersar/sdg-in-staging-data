@@ -15,21 +15,8 @@
             "type": "integer"
           },
           {
-            "name": "data.area",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "data.sied",
-                "data.wohn",
-                "data.indu",
-                "data.freiz",
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       }

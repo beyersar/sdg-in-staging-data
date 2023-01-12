@@ -12,21 +12,8 @@
         "fields": [
           {
             "name": "Year",
-            "type": "integer",
+            "type": "number",
             "title": "Year"
-          },
-          {
-            "name": "data.sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Women",
-                "Men",
-                "Gender Pay Gap",
-                ""
-              ]
-            },
-            "title": "Sex"
           },
           {
             "name": "Value",

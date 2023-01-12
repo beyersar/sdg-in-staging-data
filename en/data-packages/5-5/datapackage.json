@@ -16,19 +16,6 @@
             "title": "Year"
           },
           {
-            "name": "data.sex",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "Women",
-                "Men",
-                "Total",
-                ""
-              ]
-            },
-            "title": "Sex"
-          },
-          {
             "name": "Value",
             "type": "integer",
             "title": "Value"
